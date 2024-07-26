@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="container">
+<img src=c:\Users\Medha Trust\Pictures\naga.jpeg
+alt="Profile Picture" class="profile-pic">
+<h1>Palle Nagarjuna</h1>
+<p>Computer Science Student</p>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a  href="#contact">Contact</a></li>
+</ul>
+</nav>
+<section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hello! I am a computer science student at Loyola Academy. I am sionate about web development, and software engineering. </p>
+    </section>
+    <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>C</li>
+    <li>Cpp</li>
+    </ul>
+    </section>
+    <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project">
+    <h3>Project Title 1</h3>
+    <p>simple calculator by using C language.</p>
+    </div>
+    <div class="project">
+    <h3>Project Title 2</h3>
+    <p>Biometric device for attendance.</p>
+    </div>
+    </section>
+  <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form id="contact-form">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+        </form>
+        </section>
+        <footer>
+         <p>&copy; 2024 Palle Nagarjuna</p>
+        </footer>
+        <script src="script.js"></script>
+        </body>
+        </html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+header {
+    background-color: #353632;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+.profile-pic {
+    border-radius: 75%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+nav {
+    background-color: #70b319;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center
+    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+color: #fefef7;
+text-decoration: none;
+}
+.container {
+width: 80%;
+margin: 0 auto;
+padding: 20px 0;
+}
+h2{
+border-bottom: 2px solid #333;
+padding-bottom: 10px
+}
+section {
+margin-bottom: 60px;
+}
+project {
+margin-bottom…
